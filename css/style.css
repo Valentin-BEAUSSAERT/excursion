@@ -51,3 +51,22 @@ h2 {
     width: 80%; /* Ou la largeur que vous souhaitez */
     max-width: 600px; /* Une largeur maximale pour l'image */
 }
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 21px; /* Ajustez selon la taille réelle que vous souhaitez */
+}
+
+.footer a {
+    color: aquamarine; /* ou la couleur exacte de l'image si elle est spécifiée */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    font-size: 16px; /* Ajustez selon la taille réelle que vous souhaitez */
+}
+
+.footer p {
+    margin: 0; /* Enlève la marge par défaut du paragraphe */
+}
