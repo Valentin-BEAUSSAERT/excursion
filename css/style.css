@@ -2,6 +2,9 @@
         /* Ajoutez vos styles CSS ici ou dans le fichier style.css */
         body {
             font-family: Verdana, sans-serif;
+            background-color: black; /* Définit le fond de la page en noir */
+            color: white; /* Change la couleur du texte en blanc pour le contraste */
+
         }
         .header {
             text-align: center;
@@ -19,3 +22,32 @@
             text-decoration: none; /* Supprime le soulignement du lien */
         }
         /* Autres styles peuvent être ajoutés ici */
+
+        /* Style pour le conteneur vidéo */
+.video-container {
+    text-align: center; /* Centre la vidéo */
+    margin: 20px 0; /* Ajoute de l'espace avant et après la vidéo */
+}
+.video-container video {
+    width: 80%; /* Ou la largeur que vous souhaitez */
+    max-width: 600px; /* Une largeur maximale pour la vidéo */
+}
+
+/* Style pour les titres des sections */
+h2 {
+    text-align: center; /* Centre le titre */
+    font-family: Verdana, sans-serif;
+    font-weight: 300; /* Poids de la police comme indiqué dans votre image */
+    font-size: 42px; /* Taille de la police pour le titre */
+    color: white /* La couleur de votre choix */
+}
+
+/* Style pour le conteneur d'images */
+.image-container {
+    text-align: center; /* Centre l'image */
+}
+
+.image-container img {
+    width: 80%; /* Ou la largeur que vous souhaitez */
+    max-width: 600px; /* Une largeur maximale pour l'image */
+}
